@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.A-I-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #ddd;
+  object-fit: cover;
+}
+.A-I-profile-info h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.A-I-profile-info p {
+  color: #666;
+  margin-bottom: 8px;
+}
+.A-I-section {
+  margin-bottom: 25px;
+}
+.A-I-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+  border-left: 4px solid #ff6b6b;
+  padding-left: 10px;
+}
+.A-I-section p,
+.A-I-section ul {
+  color: #555;
+  line-height: 1.6;
+}
+.A-I-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+.A-I-section li {
+  padding: 8px 0;
+}
+.A-I-section li:before {
+  content: "✓ ";
+  color: #ff6b6b;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
