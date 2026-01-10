@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Font and background color */
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #f5f5f5;
   padding: 20px;
 }
-
+/* Tittle */
 .A-I-container {
   max-width: 800px;
   margin: 0 auto;
@@ -24,11 +24,12 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* under tittle */
 .recipe-meta {
   color: #666;
   margin-bottom: 20px;
   font-size: 14px;
+  text-align: center;
 }
 
 .recipe-image {
@@ -42,7 +43,7 @@ h1 {
   justify-content: center;
   color: #999;
 }
-
+/* section */
 .A-I-recipe-section {
   margin-bottom: 25px;
 }
@@ -54,7 +55,7 @@ h1 {
   border-bottom: 2px solid #ff6b6b;
   padding-bottom: 10px;
 }
-
+/* Recipe lists */
 ul,
 ol {
   margin-left: 20px;
@@ -64,7 +65,7 @@ li {
   margin-bottom: 10px;
   line-height: 1.6;
 }
-
+/* Ingredients tittle */
 .ingredients-table {
   width: 100%;
   border-collapse: collapse;
@@ -80,7 +81,7 @@ li {
   font-weight: bold;
   width: 60%;
 }
-
+/* Button */
 .back-button {
   display: inline-block;
   margin-top: 20px;

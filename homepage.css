@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 
+/* Fonts */
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.6;
   color: #333;
 }
 
+/* Nav bar */
+/* Nav up line */
 header {
   background: linear-gradient(135deg, #1103518b, #041a7c);
   color: white;
@@ -18,7 +21,7 @@ header {
   top: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+/* Nav costumation home,contact and sign in */
 nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -27,28 +30,30 @@ nav {
   align-items: center;
   padding: 0 2rem;
 }
-
+/* Tittle on nav bar */
 .A-I-logo {
   font-size: 1.8rem;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
-
+/* Odrering home,contact and sign in straight in line */
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
-
+/* Decoration on nav ul list */
 nav a {
   color: white;
   text-decoration: none;
   transition: opacity 0.3s;
 }
-
 nav a:hover {
   opacity: 0.8;
 }
+/* End of nav */
 
+/* Text and img */
 .A-I-main {
   background-image: url(../images/Recipe-book.PNG);
   color: darkblue;
@@ -58,6 +63,8 @@ nav a:hover {
   animation: fadeIn 2s ease-in-out, slideIn 3s ease-out;
 }
 
+
+/* Animation */
 .A-I-main {
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,17 +80,10 @@ nav a:hover {
     background-position: right center;
   }
 }
+/* End of animation */
 
-.h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
-}
 
-.hero p {
-  font-size: 5rem;
-  margin-bottom: 5rem;
-}
-
+/*  Buttons */
 .btn {
   display: inline-block;
   background: darkblue;
@@ -100,6 +100,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+/* Features (Squares) section */
 .A-I-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -130,7 +131,7 @@ nav a:hover {
   margin: 1rem 0 0.5rem;
   color: #051351;
 }
-
+/* Footer */
 footer {
   background: linear-gradient(135deg, #1103518b, #041a7c);
   height: 65px;

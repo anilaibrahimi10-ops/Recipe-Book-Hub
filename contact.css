@@ -6,7 +6,7 @@
 }
 
 .contact-info {
-  background: linear-gradient(135deg, #0062cc, #0096ff);
+  background: linear-gradient(135deg, #1103518b, #041a7c);
   padding: 40px;
   color: white;
 }
@@ -50,8 +50,8 @@
 }
 
 .social-icon:hover {
-  background: white;
-  color: #0062cc;
+  background: darkblue;
+  color: white;
   transform: translateY(-3px);
 }
 
@@ -66,38 +66,23 @@
   transition: all 0.3s ease;
 }
 
-.form-control:focus {
-  border-color: #0062cc;
-  box-shadow: none;
-}
-
 .form-label {
   font-weight: 500;
   margin-bottom: 8px;
 }
 
-.btn-submit {
-  background: linear-gradient(135deg, #ff5252);
+.btn-submit , .btn {
+  background: linear-gradient(135deg, #1103518b, #041a7c);
   border: none;
   padding: 12px 30px;
   border-radius: 10px;
   transition: all 0.3s ease;
+  color: white;
 }
 
 .btn-submit:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 98, 204, 0.3);
 }
-.btn{
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #ff5252;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.btn:hover{
-  background-color: rgb(66, 161, 215);  
-}
+
+
