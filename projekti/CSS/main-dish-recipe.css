@@ -1,0 +1,75 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  background-image: url(../images/Recipe-book.PNG);
+}
+
+/* Responsive video */
+.recipe-video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* The white background page */
+.A-I-recipe-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Tittle */
+h1 {
+  color: #000000;
+  border-bottom: 3px solid #ff6b6b;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* Recipe info */
+.A-I-recipe-info {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  color: black;
+  text-align: center;
+}
+/* Three paragraph under the photo */
+.info-item {
+  flex: 1;
+}
+/* Tittle of the ingredients and instructions */
+h2 {
+  color: #ff6b6b;
+  margin-top: 25px;
+}
+/* Lists */
+ul,
+ol {
+  line-height: 1.8;
+  color: black;
+}
+li {
+  margin-bottom: 10px;
+}
+/* Button in the end */
+.back-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6b6b;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.back-button:hover{
+  background-color: darkblue;
+}
+
+
